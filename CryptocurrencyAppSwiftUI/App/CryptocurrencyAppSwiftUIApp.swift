@@ -11,7 +11,12 @@ import SwiftUI
 struct CryptocurrencyAppSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            HomeView()        }
+    }
+}
+
+struct Previews_CryptocurrencyAppSwiftUIApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }
